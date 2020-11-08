@@ -36,4 +36,4 @@ server.get('/', (req, res) => {
 	res.sendFile(__dirname + '/public/index.html');
 });
 
-server.listen(300, () => console.log('Team Modernator Official Website Server listening on port 5300'));
+server.listen(3000, () => console.log('Team Modernator Official Website Server listening on port 5300'));
