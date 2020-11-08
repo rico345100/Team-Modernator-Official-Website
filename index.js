@@ -1,5 +1,6 @@
 const express = require('express');
 const server = express();
+const port = 3000;
 
 server.use(express.static(__dirname + '/public'));
 
@@ -36,4 +37,4 @@ server.get('/', (req, res) => {
 	res.sendFile(__dirname + '/public/index.html');
 });
 
-server.listen(3000, () => console.log('Team Modernator Official Website Server listening on port 5300'));
+server.listen(port, () => console.log('Team Modernator Official Website Server listening on port ' + port));
