@@ -21,8 +21,13 @@ ul, li {
 }
 
 a {
-    color: white;
+    color: #42b0ff;
+    cursor: pointer;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
@@ -66,10 +71,12 @@ body {
     display: block;
     transition: .3s background-color;
     padding: 10px 30px;
+    color: #fff;
 }
 
 #header > .container > .nav > ul > li > a:hover {
     background-color: #009eea;
+    text-decoration: none;
 }
 
 #logo-image {
@@ -126,17 +133,26 @@ body {
     margin: 10px 0;
 }
 
+.game-description {
+    border: 1px solid #808080;
+    padding: 10px 40px;
+}
+
+.game-description > .group {
+    padding: 10px 0;
+}
+
+.game-description > .group > .name {
+    font-size: 16px;
+}
+
+.game-description > .group > .value {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
 #contact {
     padding-bottom: 80px;
-}
-
-#contact a {
-    color: #42b0ff;
-    cursor: pointer;
-}
-
-#contact a:hover {
-    text-decoration: underline;
 }
 
 #footer {
@@ -186,6 +202,19 @@ body {
 
     #content > .container > p {
         font-size: 14px;
+    }
+
+    .game-description {
+        padding: 10px 20px;
+    }
+
+    .game-description > .group > .name {
+        font-size: 14px;
+    }
+    
+    .game-description > .group > .value {
+        font-size: 12px;
+        padding-top: 5px;
     }
 
     #footer {
