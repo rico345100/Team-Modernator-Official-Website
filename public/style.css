@@ -49,6 +49,7 @@ body {
 }
 
 #header > .container {
+    position: relative;
     width: 1100px;
     margin: 0 auto;
 }
@@ -77,6 +78,12 @@ body {
 #header > .container > .nav > ul > li > a:hover {
     background-color: #009eea;
     text-decoration: none;
+}
+
+#header > .container > .languages {
+    position: absolute;
+    top: 30px;
+    right: 10px;
 }
 
 #logo-image {
@@ -180,6 +187,12 @@ body {
 
     #header > .container > .nav > ul > li:first-child {
         display: none;
+    }
+
+    #header > .container > .languages {
+        top: 70px;
+        background-color: rgba(50, 50, 50, 0.8);
+        padding: 10px;
     }
 
     #content {
