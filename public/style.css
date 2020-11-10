@@ -189,6 +189,10 @@ body {
         display: none;
     }
 
+    #header > .container > .nav > ul > li > a {
+        padding: 10px 20px;
+    }
+
     #header > .container > .languages {
         top: 70px;
         background-color: rgba(50, 50, 50, 0.8);
