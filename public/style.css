@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif, Arial;
     color: #fff;
+    border: 0;
 }
 
 *:focus {
@@ -138,6 +139,13 @@ body {
     width: 100%;
     height: auto;
     margin: 10px 0;
+}
+
+.game-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
 }
 
 .game-description {
