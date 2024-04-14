@@ -175,10 +175,24 @@ body {
     padding: 50px;
 }
 
-#footer > p {
+#footer > .container {
+    position: relative;
+}
+
+#footer > .container > .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer > .container > .left > a {
+    font-size: 12px;
+}
+
+#footer > .container > .center {
+    text-align: center;
     color: #fff;
     font-size: 12px;
-    text-align: center;
 }
 
 .dont-break-out {
@@ -259,8 +273,10 @@ body {
         padding-top: 5px;
     }
 
-    #footer {
-        padding: 30px;
+    #footer > .container > .left {
+        position: initial;
+        text-align: center;
+        margin-top: 20px;
     }
 }
 
