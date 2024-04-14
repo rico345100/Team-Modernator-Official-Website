@@ -177,6 +177,8 @@ body {
 
 #footer > .container {
     position: relative;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 #footer > .container > .left {
@@ -271,6 +273,11 @@ body {
     .game-description > .group > .value {
         font-size: 12px;
         padding-top: 5px;
+    }
+
+    #footer > .container {
+        width: initial;
+        margin: initial;
     }
 
     #footer > .container > .left {
